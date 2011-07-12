@@ -27,7 +27,10 @@ class Test {
 	use HelloWorld;
 }
 
-$test = new Test();
+class TestChild extends Test{
+}
+
+$test = new TestChild();
 $test->helloWorld();
 
 $test->hello();
