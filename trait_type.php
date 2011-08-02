@@ -46,20 +46,20 @@ if ($human instanceof Runnable){
 }
 
 $dog = new Dog();
-if($dog instanceof Dog){
+if($dog instanceof Runnable){
   echo "犬は走れます\n";
   $dog->run();
 }
 
 
 $car = new Car();
-if($car instanceof Car){
+if($car instanceof Runnable){
   echo "車は走れます\n";
   $car->run();
 }
 
 $knight = new Knight();
-if($knight instanceof Knight){
+if($knight instanceof Runnable){
   echo "騎士は走れます\n";
   $knight->run();
 }
